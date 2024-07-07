@@ -107,28 +107,14 @@ __MACOSX/
 # poetry
 poetry.lock
 
-# test code
-test.py
+# codebook
+/codebook
 
-# dataset
+# data
 /data
 
-# lightning log
-/lightning_logs
-/checkpoint
-
-# wandb log
-/wandb
-
-# profiler log
-/logs
-
-# hydra log
-/outputs
-
 # resource
-/codebook/resource
 /app/resource
 
-# yolo run
-/runs
+# settings
+/app/settings

@@ -39,7 +39,7 @@
    <string notr="true">background-color: rgb(234, 239, 242);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QProgressBar" name="progressBar">
+   <widget class="QProgressBar" name="main_pgb">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -69,7 +69,10 @@ QProgressBar::chunk{
 }</string>
     </property>
     <property name="value">
-     <number>24</number>
+     <number>0</number>
+    </property>
+    <property name="textVisible">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QWidget" name="widget" native="true">
@@ -342,7 +345,7 @@ border-radius: 15px;</string>
       <set>Qt::AlignCenter</set>
      </property>
     </widget>
-    <widget class="QTextEdit" name="textEdit">
+    <widget class="QTextEdit" name="item_name_te">
      <property name="geometry">
       <rect>
        <x>140</x>
@@ -363,7 +366,7 @@ border-radius: 15px;</string>
 border-radius: 5px;</string>
      </property>
     </widget>
-    <widget class="QTextEdit" name="textEdit_2">
+    <widget class="QTextEdit" name="grade_te">
      <property name="geometry">
       <rect>
        <x>140</x>
@@ -384,7 +387,7 @@ border-radius: 5px;</string>
 border-radius: 5px;</string>
      </property>
     </widget>
-    <widget class="QTextEdit" name="textEdit_3">
+    <widget class="QTextEdit" name="quantity_te">
      <property name="geometry">
       <rect>
        <x>140</x>
@@ -405,7 +408,7 @@ border-radius: 5px;</string>
 border-radius: 5px;</string>
      </property>
     </widget>
-    <widget class="QTextEdit" name="textEdit_4">
+    <widget class="QTextEdit" name="serial_no_te">
      <property name="geometry">
       <rect>
        <x>140</x>
@@ -426,7 +429,7 @@ border-radius: 5px;</string>
 border-radius: 5px;</string>
      </property>
     </widget>
-    <widget class="QTextEdit" name="textEdit_5">
+    <widget class="QTextEdit" name="lot_no_te">
      <property name="geometry">
       <rect>
        <x>140</x>
@@ -447,7 +450,7 @@ border-radius: 5px;</string>
 border-radius: 5px;</string>
      </property>
     </widget>
-    <widget class="QTextEdit" name="textEdit_6">
+    <widget class="QTextEdit" name="due_date_te">
      <property name="geometry">
       <rect>
        <x>140</x>
@@ -468,7 +471,7 @@ border-radius: 5px;</string>
 border-radius: 5px;</string>
      </property>
     </widget>
-    <widget class="QTextEdit" name="textEdit_7">
+    <widget class="QTextEdit" name="delivery_date_te">
      <property name="geometry">
       <rect>
        <x>140</x>
@@ -489,7 +492,7 @@ border-radius: 5px;</string>
 border-radius: 5px;</string>
      </property>
     </widget>
-    <widget class="QTextEdit" name="textEdit_8">
+    <widget class="QTextEdit" name="inspected_te">
      <property name="geometry">
       <rect>
        <x>140</x>
@@ -510,7 +513,7 @@ border-radius: 5px;</string>
 border-radius: 5px;</string>
      </property>
     </widget>
-    <widget class="QTextEdit" name="textEdit_9">
+    <widget class="QTextEdit" name="approved_te">
      <property name="geometry">
       <rect>
        <x>140</x>
@@ -669,13 +672,14 @@ border-radius: 5px;</string>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">image: url(resource/question_mark.png);</string>
+      <string notr="true">image: url(resource/question_mark.png);
+</string>
      </property>
      <property name="text">
       <string/>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_2">
+    <widget class="QPushButton" name="blackacre_setting_save_btn">
      <property name="geometry">
       <rect>
        <x>90</x>
@@ -763,7 +767,7 @@ border-radius: 15px;</string>
       <set>Qt::AlignCenter</set>
      </property>
     </widget>
-    <widget class="QTextEdit" name="textEdit_10">
+    <widget class="QTextEdit" name="serial_num_loc_te">
      <property name="geometry">
       <rect>
        <x>260</x>
@@ -868,7 +872,7 @@ border-radius: 5px;</string>
       <string/>
      </property>
     </widget>
-    <widget class="QTextEdit" name="textEdit_12">
+    <widget class="QTextEdit" name="detail_raw_data_loc_te">
      <property name="geometry">
       <rect>
        <x>260</x>
@@ -947,7 +951,7 @@ border-radius: 5px;</string>
       <string/>
      </property>
     </widget>
-    <widget class="QTextEdit" name="textEdit_13">
+    <widget class="QTextEdit" name="inspection_serial_loc_te">
      <property name="geometry">
       <rect>
        <x>260</x>
@@ -1110,7 +1114,7 @@ border-radius: 5px;</string>
       <string/>
      </property>
     </widget>
-    <widget class="QTextEdit" name="textEdit_14">
+    <widget class="QTextEdit" name="detail_copy_data_loc_te">
      <property name="geometry">
       <rect>
        <x>260</x>
@@ -1131,7 +1135,7 @@ border-radius: 5px;</string>
 border-radius: 5px;</string>
      </property>
     </widget>
-    <widget class="QTextEdit" name="textEdit_15">
+    <widget class="QTextEdit" name="copy_data_loc_te">
      <property name="geometry">
       <rect>
        <x>260</x>
@@ -1152,7 +1156,7 @@ border-radius: 5px;</string>
 border-radius: 5px;</string>
      </property>
     </widget>
-    <widget class="QTextEdit" name="textEdit_16">
+    <widget class="QTextEdit" name="inspection_data_num_te">
      <property name="geometry">
       <rect>
        <x>260</x>
@@ -1199,7 +1203,7 @@ border-radius: 5px;</string>
       <set>Qt::AlignCenter</set>
      </property>
     </widget>
-    <widget class="QTextEdit" name="textEdit_17">
+    <widget class="QTextEdit" name="raw_data_loc_te">
      <property name="geometry">
       <rect>
        <x>260</x>
@@ -1220,7 +1224,7 @@ border-radius: 5px;</string>
 border-radius: 5px;</string>
      </property>
     </widget>
-    <widget class="QTextEdit" name="textEdit_18">
+    <widget class="QTextEdit" name="inspection_data_loc_te">
      <property name="geometry">
       <rect>
        <x>260</x>
@@ -1283,7 +1287,7 @@ border-radius: 5px;</string>
       <string/>
      </property>
     </widget>
-    <widget class="QCheckBox" name="checkBox">
+    <widget class="QCheckBox" name="exist_detail_ckb">
      <property name="geometry">
       <rect>
        <x>290</x>
@@ -1302,7 +1306,7 @@ border-radius: 5px;</string>
       </size>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_3">
+    <widget class="QPushButton" name="position_setting_save_btn">
      <property name="geometry">
       <rect>
        <x>90</x>
@@ -1341,7 +1345,7 @@ color: #FFFFFF</string>
      <string notr="true">background-color: rgb(255, 255, 255);
 border-radius: 15px;</string>
     </property>
-    <widget class="QPlainTextEdit" name="plainTextEdit">
+    <widget class="QPlainTextEdit" name="log_pte">
      <property name="geometry">
       <rect>
        <x>0</x>
@@ -1394,7 +1398,7 @@ border-radius: 15px;</string>
       <string>설정 선택</string>
      </property>
     </widget>
-    <widget class="QComboBox" name="comboBox">
+    <widget class="QComboBox" name="setting_cb">
      <property name="geometry">
       <rect>
        <x>0</x>
@@ -1423,7 +1427,7 @@ border-radius: 15px;</string>
 QComboBox::drop-down {
     width: 20px;
     height: 20px;
-    background-color: #f6f5f2;
+    background-color: #ffffff;
     subcontrol-position: right;
     subcontrol-origin: padding;
 	right: 10px;
@@ -1435,9 +1439,18 @@ QComboBox::down-arrow {
     height: 20px;
 }</string>
      </property>
+     <property name="editable">
+      <bool>false</bool>
+     </property>
+     <property name="currentText">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>설정 파일을 선택해주세요.</string>
+     </property>
     </widget>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="generator_btn">
     <property name="geometry">
      <rect>
       <x>1160</x>
