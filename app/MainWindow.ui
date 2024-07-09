@@ -114,7 +114,7 @@ border-radius: 15px;</string>
     <widget class="QLabel" name="label_3">
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>55</x>
        <y>110</y>
        <width>100</width>
        <height>20</height>
@@ -140,7 +140,7 @@ border-radius: 15px;</string>
     <widget class="QLabel" name="label_4">
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>55</x>
        <y>160</y>
        <width>100</width>
        <height>20</height>
@@ -166,7 +166,7 @@ border-radius: 15px;</string>
     <widget class="QLabel" name="label_5">
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>55</x>
        <y>210</y>
        <width>100</width>
        <height>20</height>
@@ -192,7 +192,7 @@ border-radius: 15px;</string>
     <widget class="QLabel" name="label_6">
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>55</x>
        <y>260</y>
        <width>100</width>
        <height>20</height>
@@ -218,7 +218,7 @@ border-radius: 15px;</string>
     <widget class="QLabel" name="label_7">
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>55</x>
        <y>310</y>
        <width>100</width>
        <height>20</height>
@@ -244,7 +244,7 @@ border-radius: 15px;</string>
     <widget class="QLabel" name="label_8">
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>55</x>
        <y>360</y>
        <width>100</width>
        <height>20</height>
@@ -270,7 +270,7 @@ border-radius: 15px;</string>
     <widget class="QLabel" name="label_9">
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>55</x>
        <y>410</y>
        <width>100</width>
        <height>20</height>
@@ -296,7 +296,7 @@ border-radius: 15px;</string>
     <widget class="QLabel" name="label_10">
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>55</x>
        <y>460</y>
        <width>100</width>
        <height>20</height>
@@ -322,7 +322,7 @@ border-radius: 15px;</string>
     <widget class="QLabel" name="label_11">
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>55</x>
        <y>510</y>
        <width>100</width>
        <height>20</height>
@@ -348,7 +348,7 @@ border-radius: 15px;</string>
     <widget class="QTextEdit" name="item_name_te">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>170</x>
        <y>105</y>
        <width>200</width>
        <height>30</height>
@@ -360,6 +360,9 @@ border-radius: 15px;</string>
        <pointsize>12</pointsize>
        <bold>false</bold>
       </font>
+     </property>
+     <property name="toolTip">
+      <string>제품명/DWG NO.</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border: 1px solid #AAAAAA;
@@ -369,7 +372,7 @@ border-radius: 5px;</string>
     <widget class="QTextEdit" name="grade_te">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>170</x>
        <y>155</y>
        <width>200</width>
        <height>30</height>
@@ -381,6 +384,9 @@ border-radius: 5px;</string>
        <pointsize>12</pointsize>
        <bold>false</bold>
       </font>
+     </property>
+     <property name="toolTip">
+      <string>등급/GRADE</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border: 1px solid #AAAAAA;
@@ -390,7 +396,7 @@ border-radius: 5px;</string>
     <widget class="QTextEdit" name="quantity_te">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>170</x>
        <y>205</y>
        <width>200</width>
        <height>30</height>
@@ -402,6 +408,9 @@ border-radius: 5px;</string>
        <pointsize>12</pointsize>
        <bold>false</bold>
       </font>
+     </property>
+     <property name="toolTip">
+      <string>수량/QUANTITY</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border: 1px solid #AAAAAA;
@@ -411,7 +420,7 @@ border-radius: 5px;</string>
     <widget class="QTextEdit" name="serial_no_te">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>170</x>
        <y>255</y>
        <width>200</width>
        <height>30</height>
@@ -423,6 +432,9 @@ border-radius: 5px;</string>
        <pointsize>12</pointsize>
        <bold>false</bold>
       </font>
+     </property>
+     <property name="toolTip">
+      <string>시리얼번호/마킹번호 (TK0000-0000 ~ TK0000-0000)</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border: 1px solid #AAAAAA;
@@ -432,7 +444,7 @@ border-radius: 5px;</string>
     <widget class="QTextEdit" name="lot_no_te">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>170</x>
        <y>305</y>
        <width>200</width>
        <height>30</height>
@@ -444,6 +456,9 @@ border-radius: 5px;</string>
        <pointsize>12</pointsize>
        <bold>false</bold>
       </font>
+     </property>
+     <property name="toolTip">
+      <string>소재 로트넘버</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border: 1px solid #AAAAAA;
@@ -453,7 +468,7 @@ border-radius: 5px;</string>
     <widget class="QTextEdit" name="due_date_te">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>170</x>
        <y>355</y>
        <width>200</width>
        <height>30</height>
@@ -465,6 +480,9 @@ border-radius: 5px;</string>
        <pointsize>12</pointsize>
        <bold>false</bold>
       </font>
+     </property>
+     <property name="toolTip">
+      <string>납기일(YYYY-MM-DD)</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border: 1px solid #AAAAAA;
@@ -474,7 +492,7 @@ border-radius: 5px;</string>
     <widget class="QTextEdit" name="delivery_date_te">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>170</x>
        <y>405</y>
        <width>200</width>
        <height>30</height>
@@ -486,6 +504,9 @@ border-radius: 5px;</string>
        <pointsize>12</pointsize>
        <bold>false</bold>
       </font>
+     </property>
+     <property name="toolTip">
+      <string>납품일 (YYYY-MM-DD)</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border: 1px solid #AAAAAA;
@@ -495,7 +516,7 @@ border-radius: 5px;</string>
     <widget class="QTextEdit" name="inspected_te">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>170</x>
        <y>455</y>
        <width>200</width>
        <height>30</height>
@@ -507,6 +528,9 @@ border-radius: 5px;</string>
        <pointsize>12</pointsize>
        <bold>false</bold>
       </font>
+     </property>
+     <property name="toolTip">
+      <string>검사자/INSPECTED BY</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border: 1px solid #AAAAAA;
@@ -516,7 +540,7 @@ border-radius: 5px;</string>
     <widget class="QTextEdit" name="approved_te">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>170</x>
        <y>505</y>
        <width>200</width>
        <height>30</height>
@@ -529,154 +553,12 @@ border-radius: 5px;</string>
        <bold>false</bold>
       </font>
      </property>
+     <property name="toolTip">
+      <string>승인자/APPROVED BY</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border: 1px solid #AAAAAA;
 border-radius: 5px;</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_12">
-     <property name="geometry">
-      <rect>
-       <x>360</x>
-       <y>105</y>
-       <width>30</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(resource/question_mark.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_13">
-     <property name="geometry">
-      <rect>
-       <x>360</x>
-       <y>155</y>
-       <width>30</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(resource/question_mark.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_14">
-     <property name="geometry">
-      <rect>
-       <x>360</x>
-       <y>205</y>
-       <width>30</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(resource/question_mark.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_15">
-     <property name="geometry">
-      <rect>
-       <x>360</x>
-       <y>255</y>
-       <width>30</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(resource/question_mark.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_16">
-     <property name="geometry">
-      <rect>
-       <x>360</x>
-       <y>305</y>
-       <width>30</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(resource/question_mark.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_17">
-     <property name="geometry">
-      <rect>
-       <x>360</x>
-       <y>355</y>
-       <width>30</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(resource/question_mark.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_18">
-     <property name="geometry">
-      <rect>
-       <x>360</x>
-       <y>405</y>
-       <width>30</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(resource/question_mark.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_19">
-     <property name="geometry">
-      <rect>
-       <x>360</x>
-       <y>455</y>
-       <width>30</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(resource/question_mark.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_20">
-     <property name="geometry">
-      <rect>
-       <x>360</x>
-       <y>505</y>
-       <width>30</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(resource/question_mark.png);
-</string>
-     </property>
-     <property name="text">
-      <string/>
      </property>
     </widget>
     <widget class="QPushButton" name="blackacre_setting_save_btn">
@@ -744,7 +626,7 @@ border-radius: 15px;</string>
     <widget class="QLabel" name="label_21">
      <property name="geometry">
       <rect>
-       <x>35</x>
+       <x>55</x>
        <y>210</y>
        <width>200</width>
        <height>20</height>
@@ -770,7 +652,7 @@ border-radius: 15px;</string>
     <widget class="QTextEdit" name="serial_num_loc_te">
      <property name="geometry">
       <rect>
-       <x>260</x>
+       <x>285</x>
        <y>105</y>
        <width>80</width>
        <height>30</height>
@@ -783,6 +665,9 @@ border-radius: 15px;</string>
        <bold>false</bold>
       </font>
      </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;측정 후 자동으로 저장되는 엑셀 파일의 Sheet1에서 시리얼 넘버가 적힌 &lt;span style=&quot; font-weight:700; color:#ff0000;&quot;&gt;Cell의 위치&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border: 1px solid #AAAAAA;
 border-radius: 5px;</string>
@@ -791,7 +676,7 @@ border-radius: 5px;</string>
     <widget class="QLabel" name="label_22">
      <property name="geometry">
       <rect>
-       <x>35</x>
+       <x>55</x>
        <y>260</y>
        <width>200</width>
        <height>20</height>
@@ -817,7 +702,7 @@ border-radius: 5px;</string>
     <widget class="QLabel" name="label_23">
      <property name="geometry">
       <rect>
-       <x>35</x>
+       <x>55</x>
        <y>360</y>
        <width>200</width>
        <height>20</height>
@@ -840,42 +725,10 @@ border-radius: 5px;</string>
       <set>Qt::AlignCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="label_24">
-     <property name="geometry">
-      <rect>
-       <x>365</x>
-       <y>405</y>
-       <width>30</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(resource/question_mark.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_25">
-     <property name="geometry">
-      <rect>
-       <x>365</x>
-       <y>455</y>
-       <width>30</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(resource/question_mark.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
     <widget class="QTextEdit" name="detail_raw_data_loc_te">
      <property name="geometry">
       <rect>
-       <x>260</x>
+       <x>285</x>
        <y>455</y>
        <width>80</width>
        <height>30</height>
@@ -888,31 +741,18 @@ border-radius: 5px;</string>
        <bold>false</bold>
       </font>
      </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;디테일 측정값에서 Sheet1의 Measured &lt;span style=&quot; font-weight:700; color:#ff0000;&quot;&gt;Cell 범위&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border: 1px solid #AAAAAA;
 border-radius: 5px;</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_26">
-     <property name="geometry">
-      <rect>
-       <x>365</x>
-       <y>205</y>
-       <width>30</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(resource/question_mark.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
     <widget class="QLabel" name="label_27">
      <property name="geometry">
       <rect>
-       <x>35</x>
+       <x>55</x>
        <y>410</y>
        <width>200</width>
        <height>20</height>
@@ -935,26 +775,10 @@ border-radius: 5px;</string>
       <set>Qt::AlignCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="label_28">
-     <property name="geometry">
-      <rect>
-       <x>365</x>
-       <y>355</y>
-       <width>30</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(resource/question_mark.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
     <widget class="QTextEdit" name="inspection_serial_loc_te">
      <property name="geometry">
       <rect>
-       <x>260</x>
+       <x>285</x>
        <y>255</y>
        <width>80</width>
        <height>30</height>
@@ -967,6 +791,9 @@ border-radius: 5px;</string>
        <bold>false</bold>
       </font>
      </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;성적서 양식에서 시리얼 넘버가 작성되는 &lt;span style=&quot; font-weight:700; color:#ff0000;&quot;&gt;Cell의 위치&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border: 1px solid #AAAAAA;
 border-radius: 5px;</string>
@@ -975,7 +802,7 @@ border-radius: 5px;</string>
     <widget class="QLabel" name="label_29">
      <property name="geometry">
       <rect>
-       <x>35</x>
+       <x>55</x>
        <y>310</y>
        <width>200</width>
        <height>20</height>
@@ -1001,7 +828,7 @@ border-radius: 5px;</string>
     <widget class="QLabel" name="label_30">
      <property name="geometry">
       <rect>
-       <x>35</x>
+       <x>55</x>
        <y>510</y>
        <width>200</width>
        <height>20</height>
@@ -1024,42 +851,10 @@ border-radius: 5px;</string>
       <set>Qt::AlignCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="label_31">
-     <property name="geometry">
-      <rect>
-       <x>365</x>
-       <y>155</y>
-       <width>30</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(resource/question_mark.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_32">
-     <property name="geometry">
-      <rect>
-       <x>365</x>
-       <y>255</y>
-       <width>30</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(resource/question_mark.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
     <widget class="QLabel" name="label_33">
      <property name="geometry">
       <rect>
-       <x>35</x>
+       <x>55</x>
        <y>460</y>
        <width>200</width>
        <height>20</height>
@@ -1082,42 +877,10 @@ border-radius: 5px;</string>
       <set>Qt::AlignCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="label_34">
-     <property name="geometry">
-      <rect>
-       <x>365</x>
-       <y>105</y>
-       <width>30</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(resource/question_mark.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_35">
-     <property name="geometry">
-      <rect>
-       <x>365</x>
-       <y>505</y>
-       <width>30</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(resource/question_mark.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
     <widget class="QTextEdit" name="detail_copy_data_loc_te">
      <property name="geometry">
       <rect>
-       <x>260</x>
+       <x>285</x>
        <y>505</y>
        <width>80</width>
        <height>30</height>
@@ -1130,6 +893,9 @@ border-radius: 5px;</string>
        <bold>false</bold>
       </font>
      </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;디테일 측정값에서 CMM에서 성적서로 붙여넣을 &lt;span style=&quot; font-weight:700; color:#ff0000;&quot;&gt;Cell 범위&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border: 1px solid #AAAAAA;
 border-radius: 5px;</string>
@@ -1138,7 +904,7 @@ border-radius: 5px;</string>
     <widget class="QTextEdit" name="copy_data_loc_te">
      <property name="geometry">
       <rect>
-       <x>260</x>
+       <x>285</x>
        <y>205</y>
        <width>80</width>
        <height>30</height>
@@ -1151,6 +917,9 @@ border-radius: 5px;</string>
        <bold>false</bold>
       </font>
      </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;측정 후 자동으로 저장되는 엑셀 파일의 CMM에서 성적서로 붙여넣을 &lt;span style=&quot; font-weight:700; color:#ff0000;&quot;&gt;Cell 범위&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border: 1px solid #AAAAAA;
 border-radius: 5px;</string>
@@ -1159,7 +928,7 @@ border-radius: 5px;</string>
     <widget class="QTextEdit" name="inspection_data_num_te">
      <property name="geometry">
       <rect>
-       <x>260</x>
+       <x>285</x>
        <y>355</y>
        <width>80</width>
        <height>30</height>
@@ -1172,6 +941,9 @@ border-radius: 5px;</string>
        <bold>false</bold>
       </font>
      </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;성적서에서 data sheet 1장에 들어가는 data 개수&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border: 1px solid #AAAAAA;
 border-radius: 5px;</string>
@@ -1180,7 +952,7 @@ border-radius: 5px;</string>
     <widget class="QLabel" name="label_36">
      <property name="geometry">
       <rect>
-       <x>35</x>
+       <x>55</x>
        <y>160</y>
        <width>200</width>
        <height>20</height>
@@ -1206,7 +978,7 @@ border-radius: 5px;</string>
     <widget class="QTextEdit" name="raw_data_loc_te">
      <property name="geometry">
       <rect>
-       <x>260</x>
+       <x>285</x>
        <y>155</y>
        <width>80</width>
        <height>30</height>
@@ -1219,6 +991,9 @@ border-radius: 5px;</string>
        <bold>false</bold>
       </font>
      </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;측정 후 자동으로 저장되는 엑셀 파일의 Sheet1에서 Measured &lt;span style=&quot; font-weight:700; color:#ff0000;&quot;&gt;Cell의 범위&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border: 1px solid #AAAAAA;
 border-radius: 5px;</string>
@@ -1227,7 +1002,7 @@ border-radius: 5px;</string>
     <widget class="QTextEdit" name="inspection_data_loc_te">
      <property name="geometry">
       <rect>
-       <x>260</x>
+       <x>285</x>
        <y>305</y>
        <width>80</width>
        <height>30</height>
@@ -1240,6 +1015,9 @@ border-radius: 5px;</string>
        <bold>false</bold>
       </font>
      </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;성적서 양식에서 첫 번째 데이터의 시작 &lt;span style=&quot; font-weight:700; color:#ff0000;&quot;&gt;Cell의 위치&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border: 1px solid #AAAAAA;
 border-radius: 5px;</string>
@@ -1248,7 +1026,7 @@ border-radius: 5px;</string>
     <widget class="QLabel" name="label_37">
      <property name="geometry">
       <rect>
-       <x>35</x>
+       <x>55</x>
        <y>110</y>
        <width>200</width>
        <height>20</height>
@@ -1271,30 +1049,17 @@ border-radius: 5px;</string>
       <set>Qt::AlignCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="label_38">
-     <property name="geometry">
-      <rect>
-       <x>365</x>
-       <y>305</y>
-       <width>30</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(resource/question_mark.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
     <widget class="QCheckBox" name="exist_detail_ckb">
      <property name="geometry">
       <rect>
-       <x>290</x>
+       <x>315</x>
        <y>410</y>
        <width>20</width>
        <height>20</height>
       </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;일정 개수마다 디테일하게 측정하는 제품이라면 체크&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
      <property name="text">
       <string/>
