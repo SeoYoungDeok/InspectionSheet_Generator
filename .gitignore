@@ -118,3 +118,8 @@ poetry.lock
 
 # settings
 /app/settings
+
+# 양식 및 data 폴더
+/app/TCK 양식
+/app/성적서 양식
+/app/측정 데이터
