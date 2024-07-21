@@ -48,10 +48,16 @@
       <height>20</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">QProgressBar{
     background-color: rgb(255, 255, 255);
-    color:rgb(150,150,150);
+    color:rgb(0,0,0);
     border-style: none;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -157,7 +163,7 @@ border-radius: 15px;</string>
       <string notr="true">color: #FF3D33</string>
      </property>
      <property name="text">
-      <string>등급</string>
+      <string>소재등급</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -386,7 +392,7 @@ border-radius: 5px;</string>
       </font>
      </property>
      <property name="toolTip">
-      <string>등급/GRADE</string>
+      <string>소재등급/GRADE</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border: 1px solid #AAAAAA;
